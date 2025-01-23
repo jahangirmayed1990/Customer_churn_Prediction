@@ -29,11 +29,14 @@ Collect relevant data, such as: <br>
 **c. Data Preprocessing** <br>
 •	Handling Missing Values: Fill or remove missing data points. <br>
 <p align="center">
-  <img src="https://github.com/jahangirmayed1990/Customer_churn_Prediction/blob/main/NullValues.JPG" alt="NullValues" width="600"/>
+  <img src="https://github.com/jahangirmayed1990/Customer_churn_Prediction/blob/main/datatypes.JPG" alt="datatypes" width="600"/>
 </p>
 •	Normalization/Scaling: Ensure data is consistent for algorithms. <br>
 **d. Exploratory Data Analysis (EDA)** <br>
-•	Understand patterns and correlations in the data. <br>
+•	Understand the Dataset and correlations in the data. <br>
+<p align="center">
+  <img src="https://github.com/jahangirmayed1990/Customer_churn_Prediction/blob/main/exitedornotexited.JPG" alt="exitedornotexited" width="600"/>
+</p>
 •	Visualize churned vs. non-churned users. <br>
 <p align="center">
   <img src="https://github.com/jahangirmayed1990/Customer_churn_Prediction/blob/main/exitedornotexited.JPG" alt="exitedornotexited" width="600"/>
