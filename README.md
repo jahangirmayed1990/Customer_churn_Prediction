@@ -20,16 +20,24 @@ Define churn and establish the business goals, such as improving retention rates
 **b. Data Collection** <br>
 Collect relevant data, such as: <br>
 •	Demographic Data: Age, gender, location. <br>
+<p align="center">
+  <img src="https://github.com/jahangirmayed1990/Customer_churn_Prediction/blob/main/demographic.JPG" alt="Demographic" width="600"/>
+</p>
 •	Behavioral Data: Login frequency, transaction history, service usage. <br>
 •	Transactional Data: Purchase history, payment failures. <br>
 •	Feedback Data: Customer complaints, survey responses. <br>
 **c. Data Preprocessing** <br>
 •	Handling Missing Values: Fill or remove missing data points. <br>
-•	Feature Engineering: Create features like "average transaction value" or "days since last login." <br>
+<p align="center">
+  <img src="https://github.com/jahangirmayed1990/Customer_churn_Prediction/blob/main/NullValues.JPG" alt="NullValues" width="600"/>
+</p>
 •	Normalization/Scaling: Ensure data is consistent for algorithms. <br>
 **d. Exploratory Data Analysis (EDA)** <br>
 •	Understand patterns and correlations in the data. <br>
 •	Visualize churned vs. non-churned users. <br>
+<p align="center">
+  <img src="https://github.com/jahangirmayed1990/Customer_churn_Prediction/blob/main/exitedornotexited.JPG" alt="exitedornotexited" width="600"/>
+</p>
 •	Identify significant factors influencing churn. <br>
 **e. Model Building** <br>
 Select and train appropriate machine learning models, such as: <br>
@@ -42,8 +50,14 @@ Select and train appropriate machine learning models, such as: <br>
 **f. Model Evaluation** <br>
 Evaluate the model using metrics like: <br>
 •	Accuracy: Overall prediction correctness. <br>
+<p align="center">
+  <img src="https://github.com/jahangirmayed1990/Customer_churn_Prediction/blob/main/At_a_glance_Model_performance.JPG" alt="At_a_glance_Model_performance" width="600"/>
+</p>
 •	Precision and Recall: Focus on churners. <br>
 •	F1-Score: Balance between precision and recall. <br>
-•	ROC-AUC: Ability to distinguish between churners and non-churners. <br>
+Overall Measure the Model Performance. From the following graph, we can see that the Random Forest Classifier model has the best accuracy.
+<p align="center">
+  <img src="https://github.com/jahangirmayed1990/Customer_churn_Prediction/blob/main/Model_performance.JPG" alt="Model_performance" width="600"/>
+</p>
 **g. Deployment and Monitoring** <br>
 Deploy the model to predict churn for live data and monitor performance over time. <br>
